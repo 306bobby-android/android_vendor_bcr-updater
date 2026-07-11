@@ -44,7 +44,7 @@ jobs:
           mkdir -p prebuilts/product/etc/permissions
           
           # Unzip the required files directly to their destination
-          unzip -p bcr_release.zip system/priv-app/com.chiller3.bcr/app-release.apk > prebuilts/product/priv-app/bcr.apk
+          unzip -p bcr_release.zip system/priv-app/com.chiller3.bcr/app-release.apk > prebuilts/product/priv-app/bcr/bcr.apk
           unzip -p bcr_release.zip system/etc/permissions/privapp-permissions-com.chiller3.bcr.xml > prebuilts/product/etc/permissions/privapp-permissions-com.chiller3.bcr.xml
           
           # Clean up the downloaded zip
